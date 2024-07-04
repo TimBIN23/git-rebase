@@ -1,17 +1,25 @@
-*{
-    margin: 0;
-    box-sizing: border-box;
-    padding: 0;
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
 }
-h1{
-    color: red !important;
+body {
+  margin: 0 10px;
 }
-h2{
-    background: #000;
+h1 {
+  color: red !important;
 }
-h3{
-    border: 1px solid #014410;
+h2 {
+  background: #000;
 }
-footer{
-    color: yellow;
+h3 {
+  border: 1px solid #014410;
+}
+p {
+  background-color: blue;
+  color: white !important;
+}
+footer {
+  color: yellow;
+  font-size: larger;
 }
