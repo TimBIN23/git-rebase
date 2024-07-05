@@ -23,3 +23,22 @@ footer {
   color: yellow;
   font-size: larger;
 }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns with equal width */
+  gap: 10px; /* gap between grid items */
+  max-width: 600px; /* maximum width of grid container */
+  padding: 20px; /* padding inside grid container */
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.grid-item {
+  background-color: #4CAF50;
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+  border-radius: 5px;
+}
